@@ -1,0 +1,38 @@
+/* Descendant selector (A B) */
+
+/* div i {
+  color: red;
+} */
+
+/* Child selector */
+/* div > i {
+  color: red;
+} */
+/*  Adjacent sibling selector  A+B  */
+/* div + i {
+  color: red;
+} */
+/*  General sibling selector  A+B  */
+/* div ~ i {
+  color: red;
+} */
+
+/* div i {
+  color: blue;
+} */
+/* div > i {
+  color: blue;
+} */
+/* div + i {
+  color: blue;
+} */
+/* div ~ i {
+  color: blue;
+} */
+/* p{
+    color: ;
+} */
+p {
+  color: aliceblue;
+  font-size: larger;
+}

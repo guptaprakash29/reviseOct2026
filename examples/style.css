@@ -1,29 +1,3 @@
-#heading {
-  color: blueviolet;
-}
-#heading1 {
-  color: green;
-}
-h1 {
-  color: aqua;
-}
-
-.para1 {
-  color: blue;
-}
-p {
-  color: yellow;
-}
-.para2 {
-  color: red;
-}
-
-/* p,
-h1 {
-  color: bisque;
-} */
-
-.para1,
-.para2 {
-  color: olivedrab;
+.box {
+  visibility: hidden;
 }

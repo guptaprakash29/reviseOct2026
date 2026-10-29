@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+     
+    <meta charset="UTF-8" />
+     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     
+    <title>Overflow Example</title>
+     
+    <style>
+      .container {
+        width: 300px;
+        height: 150px;
+        border: 1px solid #000;
+        overflow-x: scroll; /* Horizontal overflow */
+        overflow-y: hidden; /* Vertical overflow */
+      }
+      .content {
+        width: 600px; /* Content wider than container */
+        height: 300px; /* Content taller than container */
+        background-color: coral;
+      }
+    </style>
+  </head>
+  <body>
+     
+    <div class="container">
+         
+      <div class="content">
+             
+        <p>
+          This content is wider and taller than its container. You can scroll
+          horizontally but not vertically. lorem500
+        </p>
+           
+      </div>
+       
+    </div>
+  </body>
+</html>

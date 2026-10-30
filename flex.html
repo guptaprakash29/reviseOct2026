@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      #container {
+        background-color: blanchedalmond;
+        border: 2px ridge red;
+        border-radius: 25px;
+        padding: 25px;
+        margin: 25px;
+        width: 550px;
+        height: 550px;
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        justify-content: center; /*main axis */
+        align-items: center; /*cross axis */
+        gap: 20px;
+        /*by default*/
+        /* flex-direction: row; 
+        flex-wrap: nowrap; */
+        /* justify-content: flex-start; */
+        /* justify-content: flex-end; */
+        /* justify-content: center; */
+        /* justify-content: space-around; */
+        /* justify-content: space-between; */
+        /* justify-content: space-evenly; */
+
+        /* flex-flow: row-reverse wrap; */
+        /* flex-wrap: wrap; */
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column; */
+        /* flex-direction: column-reverse; */
+
+        /* flex: ; */
+        /* flex-direction: ; */
+        /* flex-wrap: ; */
+        /* flex-shrink: ; */
+        /* flex-grow: ; */
+        /* flex-basis: ; */
+        /* flex-flow: ; */
+      }
+      .item {
+        background-color: rgb(219, 188, 142);
+        border: 2px ridge red;
+        border-radius: 25px;
+        padding: 25px;
+        width: 85px;
+        height: 85px;
+      }
+      #item3 {
+        order: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="item" id="item2">Item2</div>
+      <div class="item" id="item3">Item3</div>
+      <div class="item" id="item4">Item4</div>
+      <div class="item" id="item5">Item5</div>
+      <div class="item" id="item1">Item1</div>
+      <!-- <div id="item" class="item6">Item5</div>
+      <div id="item" class="item7">Item5</div>
+      <div id="item" class="item8">Item5</div>
+      <div id="item" class="item9">Item5</div>
+      <div id="item" class="item10">Item5</div>
+      <div id="item" class="item11">Item5</div>
+      <div id="item" class="item12">Item5</div>
+      <div id="item" class="item13">Item5</div>
+      <div id="item" class="item14">Item5</div>
+      <div id="item" class="item15">Item5</div> -->
+    </div>
+  </body>
+</html>

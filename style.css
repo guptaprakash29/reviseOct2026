@@ -1,17 +1,4 @@
-body {
-  height: 100%;
-}
-div {
-  background-color: aquamarine;
-  /* border-width: 2px;
-  border-style: solid;
-  border-color: brown; */
-  /* border: 2px solid red; */
-  /* border-bottom: 2px dotted red; */
-  /* border-radius: 25px; */
-  /* height: 700%;
-  width: 250%; */
-  color: brown;
-  text-align: justify;
-  /* vertical-align: middle; */
+.container {
+  display: grid;
+  column-gap: 30px;
 }

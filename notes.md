@@ -250,3 +250,6 @@ flex:<'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ;
 
 12. Transform
 
+
+JavaScript:
+JavaScript is high level, interpreted , programming language that helps make website dynamic and interactive. It is one of the core technologies of the web alongside HTNK and CSS.

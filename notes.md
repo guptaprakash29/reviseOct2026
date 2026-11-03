@@ -1,4 +1,4 @@
-html	CSS		Javasript 	C programming 	JAVA programming
+html CSS Javasript C programming JAVA programming
 
 html:
 html (Hypertext Markup Language) is standard markup language used to create webpages. It describe the basic structure of web content and tells the browser how to display text, audio, video and another elements. It is one the core technologies of alongside with CSS and JavaScript.
@@ -25,114 +25,104 @@ html (Hypertext Markup Language) is standard markup language used to create webp
 20. videos and audios
 21. Embed Youtube
 
-
-
-
-
-
 CSS:
 CSS (Cascading Stylesheet Language) is stylesheet language used to describe presentation (appearance and style) of a document written in HTML / XML. It is one of the core technologies of the Web alongside CSS and JavaScript.
 
 1. Introduction to CSS
 2. Insert CSS
-3. Basic Selectors 		(element selector, id selector, class selector, universal selector , grouping selector)
-4. Combinator Selectors 	(Descendant selector A B , Child selector A>B, Adjacent Sibling Selector A+B, General Sibling Selector A~B )
+3. Basic Selectors (element selector, id selector, class selector, universal selector , grouping selector)
+4. Combinator Selectors (Descendant selector A B , Child selector A>B, Adjacent Sibling Selector A+B, General Sibling Selector A~B )
 5. CSS, Comments
 6. Relative Units
-7. Color		(Predefined Colors Name ,RGB & RGBA, HEX, HSL & HSLA)
+7. Color (Predefined Colors Name ,RGB & RGBA, HEX, HSL & HSLA)
 8. Background
-background-color: 		;
-background-image: url( );
-background-repeat: repeat'by default', no-repeat, repeat-x, repeat-y, round, space;
-background-attachment: fixed, scroll'by default';
-background-position: left,right, top, bottom, center;
-background-size: auto, contain, cover;
-background: image, repeat, attachment, position ,size;
-
+   background-color: ;
+   background-image: url( );
+   background-repeat: repeat'by default', no-repeat, repeat-x, repeat-y, round, space;
+   background-attachment: fixed, scroll'by default';
+   background-position: left,right, top, bottom, center;
+   background-size: auto, contain, cover;
+   background: image, repeat, attachment, position ,size;
 
 9. Border
-border-width: medium, thick,thin, others units;
-border-style:solid 'by default', dashed, dotted, double, no-border, hidden, ridge, groove, inset, ofset;
-border-color:	;
-border-radius:	;
-border: width style color;
-text-decoration: line,color,style,thickness;
+   border-width: medium, thick,thin, others units;
+   border-style:solid 'by default', dashed, dotted, double, no-border, hidden, ridge, groove, inset, ofset;
+   border-color: ;
+   border-radius: ;
+   border: width style color;
+   text-decoration: line,color,style,thickness;
 
 10. Outline
-outline:	;
+    outline: ;
 11. Box Model "Margin-Padding"
-12.Text
+    12.Text
 
 (i) Text Color
-color:	;
+color: ;
 
 (ii) Text Alignment (left,center, right, justify)
-text-align:	;
+text-align: ;
 
 (iii)Text Decoration
-text-decoration-line:	; 'Complusary'  'none, overline, underline, line-through'
-text-decoration-color:	;
-text-decoration-style:	; ( solid 'by default', dashed, dotted, double, wavy)
-text-decopration-thickness:	;
+text-decoration-line: ; 'Complusary' 'none, overline, underline, line-through'
+text-decoration-color: ;
+text-decoration-style: ; ( solid 'by default', dashed, dotted, double, wavy)
+text-decopration-thickness: ;
 text-decoration: line,color,style,thickness;
 
-
 (iv)Text Transformation
-text-transform:	; (none 'by default' , capitalize, lowercase, uppercase )
+text-transform: ; (none 'by default' , capitalize, lowercase, uppercase )
 
 (v)Text Spacing
 a. Text indent
-text-indent:	;
- 
+text-indent: ;
 
 b. letter spacing
-letter-spacing:	;
+letter-spacing: ;
 
 c. word spacing
-word-spacing:	;
+word-spacing: ;
 
 d. line height
-line-height:	:
+line-height: :
 
 e. white space
-white-space:	;
+white-space: ;
 
-
- (vi)Text Shadow
+(vi)Text Shadow
 text-shadow: offset-x offset-y blur-radius color ;
 
 13.Font
 
-font-style:	;
-font-variant:	;
-font-weight:	;
-font-size:	;
-line-height:	;
-font-family:	;
+font-style: ;
+font-variant: ;
+font-weight: ;
+font-size: ;
+line-height: ;
+font-family: ;
 
 14. Link
-Link-related pseudo-classes
-love-hate
-:link --style unvisited links
-:visited --style visited links
-:hover --styles elements when the mouse pointer is over them
-:active-- styles elements at the moment they are clicked
+    Link-related pseudo-classes
+    love-hate
+    :link --style unvisited links
+    :visited --style visited links
+    :hover --styles elements when the mouse pointer is over them
+    :active-- styles elements at the moment they are clicked
 
 15. List
-list-style-type:		;
-list-style-position:	;
-list-style-image: url( );
-list-style: type position image;
-
+    list-style-type: ;
+    list-style-position: ;
+    list-style-image: url( );
+    list-style: type position image;
 
 16. Table
-'table, tr, th, td'
-border:	;
-border-collapse: separate 'by default' collapse;
-width:	;
-padding:	;
-text-align:	;
-background-color:	;
+    'table, tr, th, td'
+    border: ;
+    border-collapse: separate 'by default' collapse;
+    width: ;
+    padding: ;
+    text-align: ;
+    background-color: ;
 
 Advanced styling
 a. Hover Effects
@@ -148,31 +138,31 @@ css properties
 }
 
 17. Layout and Appearance
-CSS 'Cascading Style Sheets' is used to control the layout and appearance of webpages. There are some key concept and techniques for CSS layout.
+    CSS 'Cascading Style Sheets' is used to control the layout and appearance of webpages. There are some key concept and techniques for CSS layout.
 
 1.  Normal Flow 'Default layout behavior'
     a. block-level element
     b. inline element
-2.  Box Model
+1.  Box Model
     -padding
     -margin
-3.  Display Properties
+1.  Display Properties
     display: block inline inline-block flex grid none;
 
-4.  Position Properties
+1.  Position Properties
     position: static relative absolute fixed sticky;
     top: ;
     left: ;
     right: ;
     bottom: ;
 
-5.  Overflow Properties
+1.  Overflow Properties
     overflow: visible hidden scroll auto;
     overflow-x: ;
     overflow-y: ;
-6.  Float Properties
+1.  Float Properties
     float: none left right inherit ;
-7.  Media Queries
+1.  Media Queries
     @media (max-width: 150px) {
     p {
     background-color: brown;
@@ -188,11 +178,11 @@ CSS 'Cascading Style Sheets' is used to control the layout and appearance of web
     background-color: blue;
     }
     }
-8.  Box-Sizing
+1.  Box-Sizing
 
         /* box-sizing: border-box content-box "by default"; */
 
-9.  Flexbox Properties
+1.  Flexbox Properties
     -Flex Container
     -Flex Items
 
@@ -231,7 +221,7 @@ flex:<'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ;
     d. auto keyword
     e. Combining Method
 
-        grid-template-columns: ;
+            grid-template-columns: ;
             grid-template-rows: ;
             grid-column-start: ;
             grid-column-end: ;
@@ -245,11 +235,23 @@ flex:<'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ;
     transition-duration: 1s;
     transition-timing-function: ease-in;
     transition-delay: 1s;
-    /_ Shorthand property combines four of the transition properties into a single property. _/
+    /Shorthand property combines four of the transition properties into a single property. /
     transition:;
 
 12. Transform
-
+    transform:; 'The transform CSS property lets you rotate, scale, skew, or translate an element.'
+    transform: rotate();
+    transform: rotateX();
+    transform: rotateY();
+    transform: scale();
+    transform: scaleX();
+    transform: scaleY();
+    transform: skew();
+    transform: skewX();
+    transform: skewY();
+    transform: translate();
+    transform: translateX();
+    transform: translateY();
 
 JavaScript:
 JavaScript is high level, interpreted , programming language that helps make website dynamic and interactive. It is one of the core technologies of the web alongside HTNK and CSS.

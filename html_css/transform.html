@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rotate Boxes with Transition</title>
+    <style>
+      .box {
+        height: 50px;
+        width: 50px;
+        padding: 5px;
+        margin: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+      }
+      #box1 {
+        background-color: lime;
+      }
+      #box1:hover {
+        /*  transform:;  'The transform CSS property lets you rotate, scale, skew, or translate an element.'
+        transform: rotate();
+        transform: rotateX();
+        transform: rotateY();
+        transform: scale();
+        transform: scaleX();
+        transform: scaleY();
+        transform: skew();
+        transform: skewX();
+        transform: skewY();
+        transform: translate();
+        transform: translateX();
+        transform: translateY();*/
+        transform: rotate(45deg);
+      }
+      #box2 {
+        background-color: blueviolet;
+      }
+      #box2:hover {
+        transform: rotate(180deg);
+      }
+      #box3 {
+        background-color: indianred;
+      }
+      #box3:hover {
+        transform: rotateX(45deg);
+      }
+      #box4 {
+        background-color: violet;
+      }
+      #box4:hover {
+        transform: rotateY(45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box1" class="box"></div>
+    <div id="box2" class="box"></div>
+    <div id="box3" class="box"></div>
+    <div id="box4" class="box"></div>
+  </body>
+</html>
